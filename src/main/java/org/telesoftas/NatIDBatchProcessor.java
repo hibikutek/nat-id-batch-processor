@@ -42,7 +42,7 @@ public class NatIDBatchProcessor implements Runnable
                 } catch (NoSuchElementException e) {
                     continue;
                 }
-                if (NatIDValidator.validateID(id)) {
+                if (NatIDValidator.validateID(id).isValid()) {
                     outfValid.write(String.valueOf(id) + "\n");
                 } else {
                     outfInvalid.write(String.valueOf(id) + "\n");
