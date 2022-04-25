@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.telesoftas</groupId>
+  <groupId>org.hibikutek</groupId>
   <artifactId>nat-id-batch-processor</artifactId>
   <version>1.0</version>
 
@@ -26,9 +26,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.telesoftas</groupId>
+      <groupId>org.hibikutek</groupId>
       <artifactId>nat-id</artifactId>
-      <version>1.1</version>
+      <version>1.2</version>
     </dependency>
     <dependency>
       <groupId>info.picocli</groupId>
